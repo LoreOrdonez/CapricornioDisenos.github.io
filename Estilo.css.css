@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+    text-align: center;
+    background-color: #ccffcc;
+    color:black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+/*BARRA DE NAVEGACIÓN*/
+
+nav ul {
+    background-color: rgb(11, 11, 112);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    
+}
+nav li {
+    display: inline-flex;
+    color: white;
+    
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+
+}
+nav li:hover {
+    background-color: black;
+}
+
+/*BARRA DE BÚSQUEDA*/
+.navbar-bg-light {
+    width: 40%;
+    margin-left: 600px;
+}
+
+/*-----------------------------------------------------------*/
+
+/*FOOTER*/
+* {
+    margin:0;
+    padding:0;
+    font-family: times new roman;
+}
+#contenedor{                    
+    position: absolute;
+    background-color: lightblue;
+    width: 100%;
+    height: 55%;
+    margin-top: 50px;
+}
+.texto {
+    text-align: center;
+    font-size:10%;
+    padding-top: 20px;
+}
+#logo {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    top: 6%;
+    left: 210px;
+    bottom: 50px;
+}
+#redes {
+    position: absolute;
+    height: 80px;
+    width: 500px;
+    left: 100px;
+    bottom: 40px;
+    top: 40px;
+    margin-top: 30px;
+    margin-left: 380px;
+    font-size: 20px;
+}
+#contenedor p {
+margin-top: 135px;
+font-size: smaller;
+}
+
+#marquee {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(11, 11, 112);
+    position: relative;
+    margin-top: 100px;
+}
+#marquee h4 {
+    padding: 5px;
+    color: white;
+}
+
+footer {
+    margin-top: -60px;
+}
+
+/*------------MAIN----------------------*/
+main img{
+width: 200px;
+height:200px;
+border-radius: 50%;
+object-fit: cover;
+}
+.contenido {
+    display: flex;
+    margin: 60px;
+}
+.artículos {
+    width: 80%;
+    border-right: 2px solid black;
+}
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.VIDEO {
+    margin-left: 20px;
+}
+/*-------------------BOTON VOLVER AL INICIO------------------------------*/
+#volver-al-principio {
+padding: 10px;
+margin-top: 120px;
+margin-left: 450px;
+}
+#volver-al-principio a {
+    text-decoration: none;
+    color: white;
+}
+
+/*---------------------------ARTÍCULOS--------------------------------*/
+#linea1 {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(11, 11, 112);
+    margin-top: 10px;
+}
+
+#linea1 marquee h4 {
+    padding: 5px;
+    color: white;
+}
+
+/*------------------IMAGENES--------------------*/
+
+.card1 {
+padding: 20px;
+position: relative;
+margin-left: 40px;
+}
+.card2 {
+    margin-left: 360px;
+    bottom: 458px;
+    position: relative;
+}
+.card3 {
+    margin-left: 660px;
+    bottom: 894px;
+    position: relative;
+}
+.card4 {
+padding: 20px;
+position: relative;
+margin-left: 40px;
+margin-top: 50px;
+bottom: 900px;
+}
+.card5 {
+    margin-left: 360px;
+    position: relative;
+    bottom: 1357px;
+}
+.card6 {
+    margin-left: 660px;
+    bottom: 894px;
+    position: relative;
+    bottom: 1794px;
+} 
+.card7 {
+padding: 20px;
+position: relative;
+margin-left: 40px;
+margin-top: 50px;
+bottom: 1790px;
+}
+.card8 {
+    margin-left: 360px;
+    position: relative;
+    bottom: 2248px;
+} 
+.card9 {
+    margin-left: 660px;
+    bottom: 894px;
+    position: relative;
+    bottom: 2684px;
+}
+
+/*----------------BOTONES PAGINA PRINCIPAL Y ARRIBA----------------------*/
+
+#d-grid-gap-2-d-md-block {
+    margin-left: 520px;
+    bottom:2463px ;
+    position: relative;
+}
+#d-grid-gap-2-d-md-block button a {
+    text-decoration: none;
+    color: white; 
+}
+#botonredireccion {
+    margin-left: 350px;
+    margin-top: -2500px;
+}
+
+/*------------------------ARTICULOS INDIVIDUALES-----------------*/
+#linea2 {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(11, 11, 112);
+    margin-top: 10px;
+}
+#linea2 h4 {
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+#ImagenArticulo img{
+    border-radius: 0%;
+    margin-left: 120px;
+}
+#ImagenArticulo h2 {
+    margin-left: 120px;
+}
+#ImagenArticulo p {
+    margin-left: 60px;
+    text-align: justify;
+    width: 540px;
+    left: 20px;
+} 
+#linea3 {
+    width: 19%;
+    height: 40px;
+    background-color: rgb(11, 11, 112);
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+#linea3 p{
+    padding: 10px;
+    color: white;
+    text-align:left;
+    margin-left: 10px;
+}
+aside video{
+    margin-left: 800px;
+    margin-top: -350px;
+    border: black;
+}
+
+/*---------------ITEMS-----------------*/
+#items h1 {
+margin-top: 20px;
+color: white;
+
+width: 100%;
+    height: 40px;
+    background-color: rgb(11, 11, 112);
+    margin-top: 10px;
+}
+#items ul{
+margin-top: 50px;
+text-align: center;
+}
+#items li{
+    text-decoration: none;
+}
+
+.VIDEOaside{
+margin-top: -220px;
+}
+.VIDEOaside2{
+    margin-top: -20px;
+    margin-left: -700px;
+    }
+
+/*--------------------FORMULARIO------------------*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+    .form-register {
+    border-radius: 20px;
+    width: 400px;
+    background: #A9F4DB;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius:6px;
+    font-family: Times New Roman;
+}
+    .form-register {
+    font-size: 22px;
+    margin-bottom:20px;
+    border: 2px solid #0abb80;
+}
+    .controls {
+    width: 100%;
+    height: 40px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #0abb80;
+    font-family: "times new roman";
+    font-size: 18px;
+}
+    .form-register .button {
+    width: 100%;
+    background: #03dc93;
+    border:none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 18px;
+    font-family: "times new roman";
+}
+#lineaformulario {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(11, 11, 112);
+    margin-top: 10px;
+}
+#parrafo-formulario p {
+    width: 600px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 40px;
+
+}
+/*-----------------------BOTON DE DESCARGA-------------------*/
+#boton-descarga {
+padding: 20px;
+margin-left: 400px;
+}
+
+#grupo {
+    margin-left: 250px;
+}
